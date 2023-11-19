@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  position: fixed;
+  background-color: #333333;
+  height: 8vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar {
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 8vh;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.hli {
+  display: flex;
+  list-style: none;
+  gap: 40px;
+}
+
+.hli li a {
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+.homepage {
+  background: url(family-camping-at-sunset.jpg);
+  height: 100vh;
+  background-position: center 50%;
+  background-size: cover;
+}
+.container {
+  display: flex;
+  height: 85%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.txt {
+  color: white;
+  margin-bottom: 50px;
+  font-size: 20px;
+  text-align: center;
+  text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.txt h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.txt p {
+  font-size: 20px;
+}
+.container a {
+  background: white;
+  padding: 20px 60px;
+  border-radius: 5px;
+  font-size: 18px;
+  border: 2px solid #fff;
+  color: black;
+  text-decoration: none;
+  border: 2px solid #fff;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+.container a:hover {
+  color: #888888;
+  background: rgba(255, 255, 255, 0.3);
+}
+.services {
+  background-color: #f2f2f2;
+  height: 100vh;
+  width: auto;
+}
+.head {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.head h1 {
+  font-size: 32px;
+  font-weight: bold;
+  margin-top: 84px;
+}
+.head p {
+  margin: auto;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.content {
+  width: 75%;
+  height: 73%;
+  align-self: center;
+  margin: 10px auto;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.serv {
+  background: #ffffff;
+  padding: 40px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  margin: 20px 25px;
+  width: 360px;
+  height: 340px;
+  text-align: center;
+}
+.img2 img {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 20px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+
+.info p {
+  padding: auto;
+  margin: auto 20px;
+  text-align: center;
+}
+.info h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.aboutus {
+  background: #f2f2f2;
+  margin: 40px auto;
+  height: 90vh;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 80px 0 0;
+  margin-bottom: auto;
+}
+.txt2 {
+  font-size: large;
+}
+.txt2 h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+.row {
+  margin: 50px;
+  max-width: 1200px;
+}
+.company-info h3,
+.company-info p {
+  margin: 10px auto;
+}
+.company-info,
+.mission-vision,
+.team {
+  margin: 40px auto;
+}
+
+.mission-vision h3,
+.mission-vision p {
+  margin: 10px auto;
+}
+.team {
+  margin: 10px auto;
+}
+.team ul {
+  text-align: left;
+  margin-left: -20px;
+}
+/* now */
+.contact {
+  background: #f2f2f2;
+  margin: auto;
+  height: 60vh;
+}
+.contact h2,
+.contact p {
+  text-align: center;
+}
+.contact h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+/* yevd */
+.rowc {
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 20%;
+  margin-right: 20%;
+
+}
+
+.contact-details {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.contact-details p {
+  margin-bottom: 10px;
+}
+
+.contact-details p i {
+  color: #5e5e5e;
+  margin-right: 10px;
+}
+
+.form {
+  width: 60vh;
+  padding: 20px;
+  color: #333;
+}
+
+.form input[type="text"],
+.form input[type="email"],
+.form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  outline: none;
+  font-size: 16px;
+}
+
+.form textarea {
+  resize: none;
+  height: 150px;
+}
+
+.form button {
+  background-color: #1c1c1c;
+  color: #fff;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 20vh;
+  font-size: 18px;
+  border-radius: 5px;
+}
+.form button:hover {
+  background-color: #777777;
+ }
