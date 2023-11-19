@@ -1,6 +1,9 @@
+
+
 * {
   margin: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
 body{
@@ -12,16 +15,28 @@ header {
   background-color: #333333;
   height: 8vh;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 .navbar {
   padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 8vh;
   width: 100%;
   max-width: 1200px;
@@ -35,6 +50,8 @@ header {
 }
 
 .hli {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
   gap: 40px;
@@ -49,17 +66,32 @@ header {
 .homepage {
   background: url(family-camping-at-sunset.jpg) center/cover;
   height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   height: 85%;
-  align-items: center;
-  justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .txt {
@@ -87,7 +119,8 @@ header {
   border: 2px solid #fff;
   color: black;
   text-decoration: none;
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 .container a:hover {
@@ -101,8 +134,13 @@ header {
 }
 
 .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   text-align: center;
 }
 
@@ -123,16 +161,22 @@ header {
   height: 73%;
   margin: 10px auto;
   border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .serv {
   background: #ffffff;
   padding: 40px 15px;
   border-radius: 5px;
-  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
   margin: 20px 25px;
   width: 360px;
   height: 340px;
@@ -144,7 +188,8 @@ header {
   height: 120px;
   margin-bottom: 20px;
   border-radius: 50%;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 
 .info p {
@@ -161,9 +206,16 @@ header {
   background: #f2f2f2;
   margin: 40px auto;
   height: 90vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   padding: 80px 0 0;
 }
 
@@ -215,18 +267,32 @@ header {
 
 .rowc {
   margin-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-left: 20%;
   margin-right: 20%;
 }
 
 .contact-details {
   margin-top: 65px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .contact-details p {
@@ -274,4 +340,66 @@ header {
 .form button:hover {
   background-color: #777777;
 }
+/* Your existing styles */
+
+@media screen and (min-width: 1200px) {
+  .homepage .txt h1 {
+    font-size: 80px;
+  }
+
+  .homepage .txt p {
+    font-size: 24px;
+  }
+
+  .container a {
+    font-size: 20px;
+  }
+
+  .head h1 {
+    font-size: 36px;
+  }
+
+  .head p {
+    font-size: 18px;
+  }
+
+  .serv {
+    width: 360px;
+    margin: 20px 25px;
+  }
+
+  .serv h2 {
+    font-size: 24px;
+  }
+
+  .serv p {
+    font-size: 16px;
+  }
+
+  .txt2 h2 {
+    font-size: 36px;
+  }
+
+  .company-info h3,
+  .company-info p,
+  .mission-vision h3,
+  .mission-vision p,
+  .team h3,
+  .team ul {
+    font-size: 18px;
+  }
+
+  .team ul {
+    margin-left: -20px;
+  }
+
+  .contact h2 {
+    font-size: 36px;
+  }
+
+  .contact p {
+    font-size: 18px;
+  }
+}
+
 
