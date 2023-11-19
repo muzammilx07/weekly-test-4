@@ -1,8 +1,10 @@
 * {
   margin: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+body{
+  background-color: rgb(242, 242, 242);
 }
 
 header {
@@ -10,25 +12,16 @@ header {
   background-color: #333333;
   height: 8vh;
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  justify-content: center;
+  align-items: center;
 }
 
 .navbar {
   padding: 0 10px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   height: 8vh;
   width: 100%;
   max-width: 1200px;
@@ -42,8 +35,6 @@ header {
 }
 
 .hli {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   list-style: none;
   gap: 40px;
@@ -54,28 +45,23 @@ header {
   color: white;
   text-decoration: none;
 }
+
 .homepage {
-  background: url(family-camping-at-sunset.jpg);
+  background: url(family-camping-at-sunset.jpg) center/cover;
   height: 100vh;
-  background-position: center 50%;
-  background-size: cover;
-}
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  height: 85%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 85%;
+  align-items: center;
+  justify-content: center;
+}
+
 .txt {
   color: white;
   margin-bottom: 50px;
@@ -83,13 +69,16 @@ header {
   text-align: center;
   text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
 }
+
 .txt h1 {
   font-size: 60px;
   margin-bottom: 10px;
 }
+
 .txt p {
   font-size: 20px;
 }
+
 .container a {
   background: white;
   padding: 20px 60px;
@@ -98,85 +87,71 @@ header {
   border: 2px solid #fff;
   color: black;
   text-decoration: none;
-  border: 2px solid #fff;
-  -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
-          box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
+
 .container a:hover {
   color: #888888;
   background: rgba(255, 255, 255, 0.3);
 }
+
 .services {
   background-color: #f2f2f2;
   height: 100vh;
-  width: auto;
 }
+
 .head {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   text-align: center;
 }
+
 .head h1 {
   font-size: 32px;
   font-weight: bold;
   margin-top: 84px;
 }
+
 .head p {
   margin: auto;
   font-weight: 500;
   margin-bottom: 10px;
 }
+
 .content {
   width: 75%;
   height: 73%;
-  -ms-flex-item-align: center;
-      -ms-grid-row-align: center;
-      align-self: center;
   margin: 10px auto;
   border-radius: 5px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .serv {
   background: #ffffff;
   padding: 40px 15px;
   border-radius: 5px;
-  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
-          box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.04);
   margin: 20px 25px;
   width: 360px;
   height: 340px;
   text-align: center;
 }
+
 .img2 img {
   width: 120px;
   height: 120px;
   margin-bottom: 20px;
-  border-radius: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
 .info p {
-  padding: auto;
   margin: auto 20px;
   text-align: center;
 }
+
 .info h2 {
   font-size: 20px;
   font-weight: bold;
@@ -186,98 +161,72 @@ header {
   background: #f2f2f2;
   margin: 40px auto;
   height: 90vh;
-  margin: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
+  align-items: center;
   padding: 80px 0 0;
-  margin-bottom: auto;
 }
+
 .txt2 {
   font-size: large;
 }
+
 .txt2 h2 {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
+
 .row {
   margin: 50px;
   max-width: 1200px;
 }
+
 .company-info h3,
-.company-info p {
+.company-info p,
+.mission-vision h3,
+.mission-vision p,
+.team h3,
+.team ul {
   margin: 10px auto;
-}
-.company-info,
-.mission-vision,
-.team {
-  margin: 40px auto;
 }
 
-.mission-vision h3,
-.mission-vision p {
-  margin: 10px auto;
-}
-.team {
-  margin: 10px auto;
-}
 .team ul {
   text-align: left;
   margin-left: -20px;
 }
-/* now */
+
 .contact {
   background: #f2f2f2;
   margin: auto;
   height: 60vh;
 }
+
 .contact h2,
 .contact p {
   text-align: center;
 }
+
 .contact h2 {
   font-size: 32px;
   font-weight: bold;
   text-align: center;
 }
-/* yevd */
+
 .rowc {
   margin-top: 60px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-between;
   margin-left: 20%;
   margin-right: 20%;
-
 }
 
 .contact-details {
   margin-top: 65px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
 }
 
 .contact-details p {
@@ -321,6 +270,8 @@ header {
   font-size: 18px;
   border-radius: 5px;
 }
+
 .form button:hover {
   background-color: #777777;
- }
+}
+
